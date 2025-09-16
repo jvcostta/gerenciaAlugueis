@@ -45,7 +45,7 @@ const Sidebar: React.FC<SidebarProps> = ({ mobile = false, onClose }) => {
       <div className="px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
           <Building2 className="h-8 w-8 text-blue-600" />
-          <span className="ml-2 text-xl font-bold text-gray-900">Imobly</span>
+          <span className="ml-2 text-xl font-bold text-gray-900">PropManager</span>
         </div>
         {mobile && onClose && (
           <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
